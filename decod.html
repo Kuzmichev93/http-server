@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Decod</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="windows">
+            <div class="windows_container">
+                <div class="input_container">
+                    <div class="error">Не правильно введены данные, два разряда нужно разделять точкой.</div>
+                    <input type="text" class="input_enter" value="A3.85.A2.A3.">
+                    <input type="text" class="input_out" onkeydown="return false">
+                </div>
+                <div class="button_container">
+                    <button type="submit" onclick="test()">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
